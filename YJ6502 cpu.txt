@@ -1,0 +1,48 @@
+YJ6502 cpu
+
+
+fetch()
+fetchInt16()
+
+
+
+register
+
+A : register (16bit)
+PC       : program counter
+flag (Zero True)
+
+
+LDA : Load Data A  # abs
+
+STA : Store To A abs
+
+
+SUM : SUM
+ # abs
+SUB : SUB
+ # abs
+CMP : Compare A
+ # abs
+JMP Jump
+# abs
+
+ZVR : Zero flage compare value run
+ abs
+TVR : True flag Value Return
+ abs
+
+ZCZ  : Zero flage Change Zero
+imp
+TCF : True flage Change false
+imp
+
+ 
+
+
+WAI : wait for interrupt
+BRK : break
+
+
+
+
